@@ -1,0 +1,13 @@
+@media screen and (max-width: 1400px){
+    .image{
+        position: relative;
+        margin: 0;
+        left: 0;
+        animation-name: initial;
+        animation-duration: 10s;
+    }
+    .img{
+        height: 100px;
+        padding: 10px;
+    }
+}

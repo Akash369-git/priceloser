@@ -1,0 +1,17 @@
+.align{
+    display: flex;
+}
+
+
+.image{
+    height: 142px;
+    border-radius: 10px;
+    border: 2px solid blue;
+    display: flex;
+    margin-bottom: -25px;
+    margin-top: 25px;
+    animation: 20s slider infinite;
+}
+.img{
+    height: 100px;
+}

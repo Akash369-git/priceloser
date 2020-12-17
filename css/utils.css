@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+:root {
+    --main-bg-color: brown;
+    --font1: 'Baloo Bhaina 2', cursive;
+    --font2: 'Roboto', sans-serif;
+    --font3: 'Quicksand', sans-serif;
+
+  }
+  body{
+      background-color: rgb(219, 216, 216);
+  }
+  .font1{
+      font-family: var(--font1);
+  }
+  .font1{
+      font-family: var(--font2);
+  }
+  .font3{
+    font-family: var(--font3);
+  }
+.max-width-1{
+    max-width: 90vw;
+}
+.max-width-2{
+    max-width: 20vw;
+}
+.m-auto{
+    margin: auto;
+}
+.btn{
+    padding: 4px 12px;
+    display: flex;
+    margin: 0px 10px;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: rgb(114, 110, 110);
+    color: white;
+}
+.form-input{
+    font-family:var(--font1) ;
+}
